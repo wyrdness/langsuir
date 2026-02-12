@@ -1,0 +1,613 @@
+{
+  "category": "SUPERNATURAL_ENTITY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/langsuir",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "langsuir",
+    "name": "Langsuir",
+    "aliases": [
+      {
+        "name": "Langsuyar",
+        "language": "Malay",
+        "region": "Malaysia",
+        "meaning": "Variant spelling"
+      },
+      {
+        "name": "Lang Suir",
+        "language": "Malay",
+        "region": "Malaysia, Singapore",
+        "meaning": "Separated spelling"
+      },
+      {
+        "name": "Mati Beranak",
+        "language": "Malay",
+        "region": "Malaysia",
+        "meaning": "Death in childbirth"
+      }
+    ],
+    "category": "SUPERNATURAL_ENTITY",
+    "subcategory": "Undead",
+    "tags": [
+      "vampire",
+      "undead",
+      "female-demon",
+      "childbirth-death",
+      "blood-drinker",
+      "shapeshifter",
+      "malaysian",
+      "islamic-folklore",
+      "nocturnal"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A female vampire demon in Malay folklore, created when a woman dies during childbirth. The langsuir is described as beautiful with long hair, possessing a hole in the back of her neck through which she sucks blood, particularly targeting children and newborns.",
+      "full": "The langsuir is one of the most feared supernatural entities in Malaysian and broader Malay culture. According to tradition, a woman who dies during childbirth or within forty days of giving birth can become a langsuir, especially if she dies from shock upon learning of her child's stillbirth or death. The transformation creates a beautiful yet terrifying nocturnal creature with long flowing hair that reaches her ankles, sharp fingernails, and most distinctively, a hole (lubang) in the back of her neck through which she feeds on blood. The langsuir preys primarily on pregnant women, newborns, and young children, though she may attack anyone who encounters her. She can be captured and domesticated by cutting her hair and placing her trimmed nails into the hole in her neck, which transforms her back into a human woman, though the transformation may be temporary if these items are removed."
+    },
+    "etymology": {
+      "origin": "From Malay 'lang' (eagle) and 'suir' or 'suyar' (screech/cry). The name references the creature's characteristic shrieking call and bird-like aspects.",
+      "meaning": "Literally 'eagle screech' or 'screeching eagle', referring to the distinctive cry the langsuir makes",
+      "first_use": "Unknown, predates written records in Malay oral traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "SUPERNATURAL_ENTITY",
+      "type": "Undead",
+      "subtype": "Vampire/Blood-drinker",
+      "variant": "Southeast Asian"
+    },
+    "related_phenomena": [
+      {
+        "id": "pontianak",
+        "name": "Pontianak",
+        "relationship": "closely_related",
+        "description": "Spirit of woman who died pregnant or during childbirth; often confused with langsuir but distinct"
+      },
+      {
+        "id": "penanggalan",
+        "name": "Penanggalan",
+        "relationship": "related",
+        "description": "Flying head vampire of Malay folklore with trailing organs"
+      },
+      {
+        "id": "hantu-pontianak",
+        "name": "Hantu Pontianak",
+        "relationship": "variant",
+        "description": "Indonesian/regional variant of similar childbirth-death spirit"
+      },
+      {
+        "id": "vampires",
+        "name": "Vampires (General)",
+        "relationship": "similar",
+        "description": "Western vampire traditions share blood-drinking characteristics"
+      },
+      {
+        "id": "aswang",
+        "name": "Aswang",
+        "relationship": "similar",
+        "description": "Filipino shapeshifting creature that targets pregnant women"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.5,
+        "max": 1.7,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "features": [
+        {
+          "feature": "Long hair",
+          "description": "Flowing black hair that reaches to ankles or trails on ground",
+          "frequency": "always"
+        },
+        {
+          "feature": "Neck hole (lubang)",
+          "description": "Supernatural opening in back of neck through which she feeds on blood",
+          "frequency": "always"
+        },
+        {
+          "feature": "Long fingernails",
+          "description": "Sharp, elongated nails used for attacking victims",
+          "frequency": "always"
+        },
+        {
+          "feature": "Beauty",
+          "description": "Appears as a beautiful woman, often in green robes",
+          "frequency": "common"
+        },
+        {
+          "feature": "Pale skin",
+          "description": "Deathly pale complexion",
+          "frequency": "common"
+        },
+        {
+          "feature": "Red eyes",
+          "description": "Eyes that glow red when hunting or angry",
+          "frequency": "occasional"
+        }
+      ],
+      "morphology": "Humanoid female form with supernatural characteristics. Primary form appears as beautiful woman in traditional dress. Can transform into owl or other night bird."
+    },
+    "abilities": [
+      {
+        "ability": "Blood drinking",
+        "description": "Feeds on blood through hole in neck, particularly from children and newborns",
+        "frequency": "always",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Flight",
+        "description": "Can fly through the air, often while shrieking",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Shapeshifting",
+        "description": "Can transform into owl or other nocturnal bird",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Invisibility",
+        "description": "Can become invisible or blend into shadows",
+        "frequency": "occasional",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Mesmerizing cry",
+        "description": "Distinctive shrieking call that can paralyze or attract victims",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "hostile",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "banana trees",
+        "abandoned houses",
+        "cemeteries",
+        "areas where women died in childbirth",
+        "forest edges near villages"
+      ],
+      "diet": "Blood, particularly from pregnant women, newborns, and children",
+      "patterns": [
+        "Most active on nights of full moon",
+        "Returns to haunt family or birthplace",
+        "Attracted to scent of blood and amniotic fluid",
+        "Sits in trees before attacking",
+        "Announces presence with characteristic shriek"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Malaysia (particularly rural areas), with accounts throughout Malay Peninsula, Singapore, parts of Indonesia, Brunei, and Southern Thailand. Concentrated in areas with significant Malay cultural influence.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Singapore", "Indonesia", "Brunei", "Thailand"],
+      "regions": [
+        "Malay Peninsula",
+        "Peninsular Malaysia",
+        "Sabah and Sarawak",
+        "Sumatra",
+        "Java",
+        "Southern Thailand"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Kampung villages",
+        "location": {
+          "description": "Rural Malay villages throughout peninsula",
+          "country": "Malaysia",
+          "region": "Peninsular Malaysia"
+        },
+        "sighting_count": null,
+        "peak_period": "Traditional era to present",
+        "notes": "Traditional stronghold of langsuir beliefs and sightings"
+      },
+      {
+        "name": "Kelantan",
+        "location": {
+          "description": "Northeastern Malaysian state",
+          "country": "Malaysia",
+          "region": "Kelantan",
+          "coordinates": {
+            "latitude": 6.1254,
+            "longitude": 102.2381
+          }
+        },
+        "sighting_count": null,
+        "peak_period": "Historical to present",
+        "notes": "Strong preservation of traditional Malay folklore"
+      },
+      {
+        "name": "Johor",
+        "location": {
+          "description": "Southern Malaysian state",
+          "country": "Malaysia",
+          "region": "Johor",
+          "coordinates": {
+            "latitude": 1.4854,
+            "longitude": 103.7618
+          }
+        },
+        "sighting_count": null,
+        "peak_period": "Historical to present",
+        "notes": "Many traditional accounts from kampung areas"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Islamic era",
+        "circa": true,
+        "source": "Ancient Malay oral traditions predate Islam's arrival"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Pre-colonial to colonial era",
+          "description": "Strongest belief period before modernization"
+        },
+        {
+          "period": "1950s-1980s",
+          "description": "Documented accounts and cultural documentation"
+        },
+        {
+          "period": "2000s-present",
+          "description": "Horror cinema revival and urban legend resurgence"
+        }
+      ],
+      "seasonal_patterns": "More accounts during birthing seasons and full moon periods"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in pre-Islamic Malay animistic beliefs and fear surrounding maternal mortality. Reflects cultural anxieties about childbirth dangers, infant mortality, and the supernatural consequences of traumatic death.",
+      "earliest_accounts": "Oral traditions suggest beliefs predate written records, likely originating in ancient Malay kingdoms. Absorbed into Islamic Malay culture while retaining animistic elements.",
+      "folklore_connections": "Connected to broader Southeast Asian traditions of childbirth-death spirits including pontianak, sundel bolong (Indonesia), and phi tai hong (Thailand)."
+    },
+    "timeline": [
+      {
+        "date": "Pre-1400s",
+        "event": "Ancient Malay animistic traditions",
+        "significance": "Langsuir beliefs emerge in pre-Islamic Malay culture",
+        "source": "Oral traditions"
+      },
+      {
+        "date": "1400s-1500s",
+        "event": "Islamic integration",
+        "significance": "Belief system adapts to Islamic context while maintaining core elements",
+        "source": "Cultural studies"
+      },
+      {
+        "date": "1820s-1900s",
+        "event": "Colonial documentation",
+        "significance": "British colonial observers document langsuir beliefs and practices",
+        "source": "Colonial ethnographic records"
+      },
+      {
+        "date": "1878",
+        "event": "Walter Skeat's documentation",
+        "significance": "British anthropologist documents Malay magical practices including langsuir countermeasures",
+        "source": "Skeat, W.W. Malay Magic"
+      },
+      {
+        "date": "1900",
+        "event": "Richard Winstedt's studies",
+        "significance": "Extensive documentation of Malay supernatural beliefs including langsuir",
+        "source": "Academic publications"
+      },
+      {
+        "date": "1957",
+        "event": "Pontianak film",
+        "significance": "First Malay horror film features similar vampire figure, beginning cinema tradition",
+        "source": "Malaysian film history"
+      },
+      {
+        "date": "1975",
+        "event": "Academic folklore studies",
+        "significance": "Malaysian scholars begin systematic documentation of traditional beliefs",
+        "source": "University research"
+      },
+      {
+        "date": "2000s",
+        "event": "Horror cinema revival",
+        "significance": "Langsuir features in modern Malaysian horror films, urban legends resurge",
+        "source": "Contemporary media"
+      }
+    ],
+    "modern_era": "The langsuir remains a significant figure in Malaysian culture, featuring in horror films, literature, and urban legends. While traditional beliefs have declined in urban areas, rural communities maintain protective practices. Modern Malaysian horror cinema has revitalized interest, presenting the langsuir to new generations through films like 'Sumpah Orang Minyak' and various television productions."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": null,
+      "verified": 0,
+      "disputed": null,
+      "debunked": null,
+      "date_range": {
+        "earliest": "Pre-colonial",
+        "latest": "2020s"
+      }
+    },
+    "notable": [
+      {
+        "id": "langsuir-account-1900-kampung",
+        "name": "Kampung Childbirth Death",
+        "date": {
+          "value": "1900",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Rural village in Peninsular Malaysia",
+          "country": "Malaysia",
+          "region": "Peninsular Malaysia"
+        },
+        "witnesses": {
+          "count": null,
+          "types": ["Villagers"],
+          "credibility_factors": ["Traditional account", "Cultural documentation"]
+        },
+        "description": "Colonial-era account of village woman who died in childbirth and was reportedly seen days later as a langsuir near banana trees. Villagers performed traditional rituals to prevent transformation including placing beads in corpse's mouth and glass beads in hands.",
+        "conditions": {
+          "weather": "Unknown",
+          "visibility": "Night",
+          "time_of_day": "Night",
+          "duration": "Brief sighting"
+        },
+        "evidence": [
+          "Colonial ethnographic documentation",
+          "Village oral traditions",
+          "Ritual practices recorded"
+        ],
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Historical documentation",
+            "Cultural context",
+            "No physical evidence",
+            "Folklore tradition"
+          ],
+          "notes": "Representative of traditional belief system and practices"
+        },
+        "sources": [
+          "Skeat, W.W. (1900). Malay Magic",
+          "Winstedt, R.O. (1925). Shaman, Saiva and Sufi"
+        ],
+        "featured": true
+      }
+    ]
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "type": "ritual objects",
+        "name": "Preventative items",
+        "description": "Glass beads, thorns, eggs placed in mouths of deceased women; needles, nails used in transformation prevention",
+        "status": "cultural_practice",
+        "analysis": "Demonstrates widespread belief and cultural practices around langsuir prevention"
+      }
+    ],
+    "cultural": [
+      {
+        "type": "folklore documentation",
+        "name": "Extensive anthropological records",
+        "description": "Detailed accounts from British colonial anthropologists and Malaysian scholars",
+        "status": "documented",
+        "analysis": "Provides rich documentation of belief system and cultural practices"
+      }
+    ]
+  },
+
+  "theories": {
+    "cultural": [
+      {
+        "name": "Maternal mortality trauma",
+        "description": "Langsuir belief emerged as cultural response to high maternal and infant mortality rates, personifying fears around childbirth",
+        "proponents": ["Anthropologists", "Folklore scholars"],
+        "evidence_cited": [
+          "Historical maternal mortality rates",
+          "Similar beliefs in other cultures with high childbirth dangers",
+          "Protective rituals focus on prevention"
+        ]
+      },
+      {
+        "name": "Social control mechanism",
+        "description": "Belief system reinforced proper behavior around childbirth and mourning practices",
+        "proponents": ["Cultural anthropologists"],
+        "evidence_cited": [
+          "Specific ritual requirements to prevent transformation",
+          "Proper burial and mourning practices emphasized",
+          "Postpartum care traditions"
+        ]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Postpartum psychosis manifestation",
+        "description": "Stories may reflect misunderstandings of postpartum mental health conditions",
+        "proponents": ["Medical anthropologists"],
+        "evidence_cited": [
+          "Symptoms of postpartum psychosis include aggression",
+          "40-day vulnerable period matches medical postpartum period",
+          "Focus on maternal-infant bond disruption"
+        ]
+      }
+    ],
+    "supernatural": [
+      {
+        "name": "Genuine supernatural entity",
+        "description": "Traditional belief that langsuir represents actual supernatural transformation",
+        "proponents": ["Traditional believers", "Some paranormal researchers"],
+        "evidence_cited": [
+          "Consistency of accounts across time and geography",
+          "Specific physical characteristics reported",
+          "Effective traditional countermeasures"
+        ]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Prevention rituals for women who die in childbirth",
+        "Protective measures for pregnant women and newborns",
+        "Transformation reversal through hair cutting and nail insertion",
+        "Recognition methods and warning signs"
+      ],
+      "stories": [
+        "The captured langsuir who becomes human wife",
+        "The langsuir who returns to her family",
+        "Village protection from langsuir attacks",
+        "The langsuir and the banana tree"
+      ],
+      "beliefs": "Traditionally believed to be real supernatural threat. Prevention includes placing glass beads in mouth of deceased, needles in palms, eggs under armpits, and cutting hair. Recognition signs include sweet fragrance followed by foul stench, and shrieking cry."
+    },
+    "islamic_context": {
+      "integration": "Langsuir beliefs integrated into Islamic Malay culture, with Islamic prayers and Quranic verses used as protection alongside traditional methods",
+      "tension": "Some orthodox Islamic scholars reject langsuir as superstition, while folk Islam incorporates the belief",
+      "practices": [
+        "Quranic recitation for protection",
+        "Islamic prayers during burial to prevent transformation",
+        "Combination of Islamic and traditional protective methods"
+      ]
+    },
+    "protective_measures": {
+      "prevention": [
+        "Place glass beads in corpse's mouth to prevent screaming",
+        "Insert needles in palms of hands",
+        "Place eggs under armpits",
+        "Tie thumbs and big toes together",
+        "Cut hair short before burial"
+      ],
+      "capture": [
+        "Cut her long hair short",
+        "Stuff cut hair and trimmed nails into neck hole",
+        "This transforms her back to human form"
+      ],
+      "protection": [
+        "Thorns around doors and windows",
+        "Turmeric and betel leaves",
+        "Islamic prayers and Quranic verses",
+        "Avoid going out during vulnerable times (postpartum, full moon)"
+      ]
+    },
+    "popular_culture": {
+      "literature": [
+        "\"Penunggu Istana\" by Ramlee Awang Murshid (2011)",
+        "\"Langsuir\" in various Malay folklore collections",
+        "Academic studies by Malaysian folklorists"
+      ],
+      "film_tv": [
+        "Pontianak (1957) - First Malay vampire film",
+        "Sumpah Orang Minyak (1958)",
+        "Various Malaysian horror films featuring langsuir",
+        "Modern horror productions and TV series"
+      ],
+      "games": [
+        "References in Southeast Asian horror games",
+        "Mobile games featuring Malaysian supernatural creatures"
+      ],
+      "other": [
+        "Tourist attractions featuring Malay folklore",
+        "Cultural heritage presentations",
+        "Academic folklore studies",
+        "Halloween and horror-themed entertainment in Malaysia"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Walter William Skeat",
+        "affiliation": "British colonial administrator and anthropologist",
+        "contribution": "First major English-language documentation of Malay magic and langsuir beliefs",
+        "period": "1870s-1900s"
+      },
+      {
+        "name": "Richard Olof Winstedt",
+        "affiliation": "British colonial scholar",
+        "contribution": "Extensive studies of Malay supernatural beliefs and Islamic integration",
+        "period": "1900s-1960s"
+      },
+      {
+        "name": "Mubin Sheppard",
+        "affiliation": "Malaysian cultural historian",
+        "contribution": "Documentation of Malay cultural practices and folklore",
+        "period": "1960s-1990s"
+      },
+      {
+        "name": "Dr. Amir Muhammad",
+        "affiliation": "Malaysian filmmaker and writer",
+        "contribution": "Modern documentation and cinematic representation of Malay folklore",
+        "period": "2000s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Malaysian Folklore Society",
+        "focus": "Preservation and study of Malaysian traditional beliefs"
+      },
+      {
+        "name": "University of Malaya Anthropology Department",
+        "focus": "Academic study of Malay cultural traditions"
+      }
+    ],
+    "ongoing_studies": "Contemporary research focuses on cultural preservation, understanding historical maternal health contexts, and psychological/sociological aspects of belief systems. Film studies examine langsuir representations in modern Malaysian horror cinema."
+  },
+
+  "sources": [
+    {
+      "id": "skeat-1900",
+      "type": "book",
+      "title": "Malay Magic: Being an Introduction to the Folklore and Popular Religion of the Malay Peninsula",
+      "authors": ["Walter William Skeat"],
+      "publication": "Macmillan and Co.",
+      "date": "1900"
+    },
+    {
+      "id": "winstedt-1925",
+      "type": "book",
+      "title": "Shaman, Saiva and Sufi: A Study of the Evolution of Malay Magic",
+      "authors": ["Richard Olof Winstedt"],
+      "publication": "Constable & Co",
+      "date": "1925"
+    },
+    {
+      "id": "endicott-1970",
+      "type": "book",
+      "title": "An Analysis of Malay Magic",
+      "authors": ["Kirk Michael Endicott"],
+      "publication": "Oxford University Press",
+      "date": "1970"
+    }
+  ]
+}
